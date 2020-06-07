@@ -1,0 +1,162 @@
+/******FORMAT*******/
+
+em{
+	font-style: italic;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: white;
+}
+
+.quote {
+	font-family: 'Poiret One', cursive;
+}
+
+/*****GRID*****/
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
+/********HEADER*******/
+
+header {
+	background-image: url(../img/steve-header.jpg);
+	width: 940px;
+	overflow: auto;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+
+.title {
+	text-align: center;
+	padding: 250px 0;
+}
+
+.title h1 {
+	font-size: 36px;
+	font-weight: bolder;
+	margin: 0 auto
+}
+
+.title h2 {
+	font-size: 22px;
+	margin: 0 auto;
+	font-weight: lighter;
+}
+
+header .quote {
+   margin: 0 auto;
+   padding-top: 30px;
+   text-align: center;
+   font-size: 23px;
+}
+
+/********MAIN*******/
+
+.main h3 {
+   color: lightgrey;
+   font-family: serif;
+   font-size: 50px;
+   letter-spacing: 4px;
+   text-indent: 100px;
+   margin: 0;
+   padding: 30px 0 20px;
+}
+
+div .content {
+	overflow: auto;
+}
+
+.timeline {
+	width: 700px;
+	float: left;
+}
+
+.content .event {
+	width: 100px;
+	padding-right: 0px;
+	margin: 0px;
+	float: left;
+	clear: left;
+}
+
+.content .event p{
+	font-weight: bold;
+}
+
+.content .event-desc {
+	width: 520px;
+	padding: 0px 60px 0px 20px;
+	margin: 0px;
+	float: left;
+}
+
+.content .event-desc p {
+	font-weight: lighter;
+	float: left;
+}
+
+.side {
+	width: 300px;
+	padding-right: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.nut-header h4 {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+.nut-header img {
+	width: 200px;
+	padding-left: 50px;
+	margin: 0px;
+}
+
+.nut-event {
+	width: 100px;
+	padding-left: 0px;
+	margin: 0px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nut-desc {
+	width: 200px;
+	padding-left: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.nut-event p {
+	text-align: center;
+	vertical-align:middle;
+}
+
+
+/********FOOTER*******/
+
+footer {
+  width: 1080px;
+  clear: both;
+}
+
+footer p {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer span .author {
+	text-transform: uppercase;
+}
